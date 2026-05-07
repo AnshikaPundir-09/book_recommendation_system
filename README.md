@@ -1,48 +1,41 @@
-# Emotion Based Music Recommendation System 🎵😊
+# Book Recommendation System 📚
 
-An AI-powered music recommendation system that detects human emotions through facial expressions and recommends songs based on the detected mood.
+A machine learning based book recommendation system that suggests books using user rating patterns and similarity analysis.
 
 ## Features
-- Real-time face detection using webcam
-- Facial emotion recognition using deep learning
-- Emotion-to-music mapping
-- Automatic music recommendation based on mood
-- Interactive and user-friendly system
+- Personalized book recommendations
+- Cosine similarity based recommendation engine
+- User-book pivot table generation
+- Filtering of experienced users and popular books
+- Fast and accurate recommendations
 
-## Workflow
-1. Capture face through webcam
-2. Detect facial features
-3. Predict emotion using trained model
-4. Recommend songs matching the detected emotion
-
-## Emotions Supported
-- Happy
-- Sad
-- Angry
-- Neutral
-- Surprise
-- Fear
+## How It Works
+1. Collect user-book ratings
+2. Create pivot table
+3. Apply cosine similarity
+4. Recommend similar books
 
 ## Tech Stack
 - Python
-- OpenCV
-- TensorFlow
-- NumPy
 - Pandas
+- NumPy
+- Scikit-learn
 
-## Dataset
-- FER+ Dataset
+## Machine Learning Concepts Used
+- Collaborative Filtering
+- Cosine Similarity
+- Recommendation Systems
 
 ## Applications
-- Smart music assistants
-- Mood-based entertainment systems
-- Emotion-aware AI applications
+- Online bookstores
+- Personalized reading platforms
+- Library management systems
 
 ## Future Improvements
-- Spotify API integration
-- Voice emotion detection
-- Personalized playlists
-- Mobile application support
+- Web application deployment
+- Genre-based filtering
+- Deep learning recommendations
+- User authentication system
 
 ## Author
 Anshika Pundir
