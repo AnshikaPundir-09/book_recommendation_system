@@ -1,4 +1,4 @@
-# Book Recommendation System 📚
+# Book Recommendation System 
 
 A machine learning based book recommendation system that suggests books using user rating patterns and similarity analysis.
 
